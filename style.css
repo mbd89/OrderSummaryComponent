@@ -29,6 +29,7 @@ justify-content: center;
     color: #717FA6;
     padding: 0 2rem;
     margin: 0 1rem;
+    line-height:26px;
 }
 
 .hero-image img {
