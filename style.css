@@ -1,0 +1,109 @@
+body{
+    background:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    
+}
+
+.card{
+max-width: 450px;
+background-color: #FFFFFF;
+box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.order-sum{
+    text-align: center;
+}
+
+.order-sum p {
+    color: #717FA6;
+    padding: 0 2rem;
+    margin: 0 1rem;
+}
+
+.hero-image img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.payment-plan{
+    background: #F7F9FF;
+    border-radius: 11px;
+    margin: 2rem 3rem;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+
+}
+
+.payment-plan p {
+    font-weight: bold;
+    margin-left: -2.5rem;
+}
+
+.payment-plan span{
+    color: #717FA6;
+    display: block;
+}
+button{
+background: #382AE1;
+box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+border-radius: 11px;
+color: white;
+font-weight: 900;
+font-size: 15px;
+display: block;
+padding: 1rem 6.5rem;
+margin-bottom: 20px;
+cursor: pointer;
+
+}
+
+button:hover{
+    background: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.buttons{
+    display: grid;
+    place-items: center;
+
+}
+
+.buttons p {
+    color: #717FA6;
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+a:hover{
+    cursor: pointer;
+    color:#766CF1; 
+    text-decoration: none;
+}
+
+@media  screen and (min-width: 375px) and (max-width: 400px) {
+    body {
+        margin: 0;
+
+    }
+.card{
+    margin: 71px 24px;
+    margin-top: 100px;
+}
+
+}
